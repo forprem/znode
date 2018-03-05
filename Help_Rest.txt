@@ -1,0 +1,26 @@
+Create
+localhost:3000/packages
+POST
+{"znum": "1Z559968", "coordinatesx": "26", "coordinatesy": "35", "coordinatesz": "55"}
+
+
+Get the results
+
+localhost:3000/packages
+GET
+
+
+Update
+PUT
+localhost:3000/packages/5a79f8eda34f7428f0727a21
+{"znum": "1Z999968", "coordinatesx": "66", "coordinatesy": "75", "coordinatesz": "85"}
+
+
+DELETE
+
+DELETE
+localhost:3000/packages/5a79f8eda34f7428f0727a21
+
+
+
+GRANT ALL PRIVILEGES ON t.* TO 'prem'@'localhost';
